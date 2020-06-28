@@ -17,4 +17,4 @@ Run bin/Chart.exe
 
 
 
-<img src="images\graph.PNG" width="700" height="400">
+<img src="images\graph.PNG" width="650" height="400">
