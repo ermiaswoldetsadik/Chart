@@ -1,0 +1,10 @@
+C:\Users\ermov\gtcoding\C#\Chart\Chart\bin\Debug\Chart.exe.config
+C:\Users\ermov\gtcoding\C#\Chart\Chart\bin\Debug\Chart.exe
+C:\Users\ermov\gtcoding\C#\Chart\Chart\bin\Debug\Chart.pdb
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.csprojAssemblyReference.cache
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.Chart.resources
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.Properties.Resources.resources
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.csproj.GenerateResource.cache
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.csproj.CoreCompileInputs.cache
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.exe
+C:\Users\ermov\gtcoding\C#\Chart\Chart\obj\Debug\Chart.pdb
