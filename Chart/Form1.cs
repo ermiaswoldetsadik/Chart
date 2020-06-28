@@ -47,9 +47,9 @@ namespace Chart
                     cmd.Parameters.AddWithValue("@FromYear", FromComboBox.Text);
                     cmd.Parameters.AddWithValue("@ToYear", ToComboBox.Text);
 
-                   //SqlDataReader reader = cmd.ExecuteReader();
+                   SqlDataReader reader = cmd.ExecuteReader();
 
-                    //dtChartData.Load(reader);
+                    dtChartData.Load(reader);
                 }
             }
             return dtChartData;
