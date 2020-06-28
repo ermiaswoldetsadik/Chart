@@ -53,12 +53,16 @@
             this.SalesByYearChart.Legends.Add(legend1);
             this.SalesByYearChart.Location = new System.Drawing.Point(12, 77);
             this.SalesByYearChart.Name = "SalesByYearChart";
+            series1.BorderWidth = 3;
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Color = System.Drawing.Color.DarkBlue;
+            series1.IsValueShownAsLabel = true;
             series1.Legend = "Legend1";
+            series1.MarkerSize = 1;
             series1.Name = "Series1";
             this.SalesByYearChart.Series.Add(series1);
-            this.SalesByYearChart.Size = new System.Drawing.Size(776, 352);
+            this.SalesByYearChart.Size = new System.Drawing.Size(1103, 433);
             this.SalesByYearChart.TabIndex = 0;
             this.SalesByYearChart.Text = "chart1";
             title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -105,7 +109,7 @@
             "2019"});
             this.FromComboBox.Location = new System.Drawing.Point(81, 29);
             this.FromComboBox.Name = "FromComboBox";
-            this.FromComboBox.Size = new System.Drawing.Size(227, 33);
+            this.FromComboBox.Size = new System.Drawing.Size(333, 33);
             this.FromComboBox.TabIndex = 1;
             // 
             // label1
@@ -120,9 +124,9 @@
             // 
             // GoButton
             // 
-            this.GoButton.Location = new System.Drawing.Point(667, 29);
+            this.GoButton.Location = new System.Drawing.Point(927, 29);
             this.GoButton.Name = "GoButton";
-            this.GoButton.Size = new System.Drawing.Size(121, 33);
+            this.GoButton.Size = new System.Drawing.Size(188, 33);
             this.GoButton.TabIndex = 3;
             this.GoButton.Text = "Go";
             this.GoButton.UseVisualStyleBackColor = true;
@@ -132,7 +136,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(338, 32);
+            this.label2.Location = new System.Drawing.Point(458, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(42, 25);
             this.label2.TabIndex = 5;
@@ -175,16 +179,16 @@
             "2017",
             "2018",
             "2019"});
-            this.ToComboBox.Location = new System.Drawing.Point(386, 29);
+            this.ToComboBox.Location = new System.Drawing.Point(506, 29);
             this.ToComboBox.Name = "ToComboBox";
-            this.ToComboBox.Size = new System.Drawing.Size(227, 33);
+            this.ToComboBox.Size = new System.Drawing.Size(353, 33);
             this.ToComboBox.TabIndex = 4;
             // 
             // Chart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1127, 522);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.ToComboBox);
             this.Controls.Add(this.GoButton);
