@@ -1,4 +1,4 @@
-# Chart
+# Chart(c#,SQL)
 
 Windows application written in C# / .NET and SQL Database- Sales Chart.
  
